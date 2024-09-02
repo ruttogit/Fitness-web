@@ -1,0 +1,38 @@
+.about{
+    display: grid;
+    grid-template-columns: 30rem 1fr;
+    padding: 0 5%;
+    gap: 3rem;
+}
+
+
+.about-right{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.about-right p{
+    width: 80%;
+}
+
+@media screen and (max-width: 1065px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-right{
+        gap: 2.2rem;
+    }
+
+    .about-right p{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .about-right p{
+        font-size: 0.8rem;
+    }
+}
