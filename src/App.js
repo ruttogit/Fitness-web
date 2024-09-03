@@ -15,7 +15,7 @@ function App(){
         <Home/>
         {/* <Dividor/> */}
         <About/>
-        <Trainers/>y
+        <Trainers/>
         <Membership/>
         <Testimonials/>
         <Footer/>
